@@ -10,7 +10,7 @@ class Player():
         self.maxVolume = 25
 
     def start(self, urls):
-        self.stream_thread = multiprocessing.Process(target=self.myshuffle, args=(urls))
+        self.stream_thread = multiprocessing.Process(target=self.shuffleMultiple, args=(urls))
         self.stream_thread.start()
         self.isOn = True
         os.system("pactl -- set-sink-volume 0 {}%".format(str(self.maxVolume)))
@@ -42,7 +42,7 @@ class Player():
         # url: string
         os.system("mplayer {} &> /dev/null &".format(url)) # &> /dev/null &
 
-    def myshuffle(self, urls):
+    def shuffleMultiple(self, urls):
         # urls: array of strings
         if len(urls) > 1:
             shuffle(urls)
