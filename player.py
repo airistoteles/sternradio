@@ -8,6 +8,7 @@ class Player():
     def __init__(self):
         self.isOn = False
         self.maxVolume = 25
+        self.len_init = int(os.popen("ps ax | grep -F mplayer | wc -l").read())
 
     def start(self, urls):
         self.stream_thread = multiprocessing.Process(target=self.shuffleMultiple, args=(urls))
@@ -40,7 +41,7 @@ class Player():
 
     def stream(self, url):
         # url: string
-        os.system("mplayer {} &> /dev/null &".format(url)) # &> /dev/null &
+        os.system("mplayer {} &> /dev/null &".format(url))
 
     def shuffleMultiple(self, urls):
         # urls: array of strings
@@ -48,12 +49,7 @@ class Player():
             shuffle(urls)
         for url in urls:
             self.stream(url)
-            len_init = len(os.popen("ps ax | grep -F mplayer | wc -l").read())
-            running = True
-            while running:
+            sleep(0.5)
+            while int(os.popen("ps ax | grep -F mplayer | wc -l").read()) > self.len_init:
                 sleep(0.5)
-                len_now = len(os.popen("ps ax | grep -F mplayer | wc -l").read())
-                if len_now == len_init:
-                    running = True
-                else:
-                    running = False
+            print("another")

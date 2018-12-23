@@ -22,6 +22,7 @@ while True:
     elif user == "5":
         if radio.getIsOn():
             radio.stop()
+            break
     if radio.getIsOn():
         radio.transition(0)
         radio.stop()

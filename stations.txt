@@ -1,5 +1,9 @@
 # DLF 
-http://st01.dlf.de/dlf/01/64/mp3/stream.mp3
+#http://st01.dlf.de/dlf/01/64/mp3/stream.mp3
+http://www.rias1.de/sound4/pirat/227/radio_227_.mp3
+http://www.rias1.de/sound4/pirat/227/radio_227_.mp3
+http://www.rias1.de/sound4/pirat/227/radio_227_.mp3
+http://www.rias1.de/sound4/pirat/227/radio_227_.mp3
 
 # DLF Kultur
 http://st02.dlf.de/dlf/02/64/mp3/stream.mp3
