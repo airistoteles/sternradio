@@ -1,0 +1,23 @@
+# DLF 
+http://st01.dlf.de/dlf/01/64/mp3/stream.mp3
+
+# DLF Kultur
+http://st02.dlf.de/dlf/02/64/mp3/stream.mp3
+
+# DLF Nova
+http://st03.dlf.de/dlf/03/64/mp3/stream.mp3
+
+# dt64
+http://www.rias1.de/sound4/ddr_/dt64/19911224_dt64_0500_0620_morgenrock_.mp3
+http://www.rias1.de/sound4/ddr_/dt64/20140508_radioeins_dt64_spezial_brasch_elstermann_.mp3
+http://www.rias1.de/sound4/ddr_/dt64/19841011_dt64_282_podiumdiskothek_.mp3
+http://www.rias1.de/sound4/ddr_/dt64/860615_dt64_popcafe_mit_peter_maffay_.mp3
+http://www.rias1.de/sound4/rias_/jugendwelle/891231_rias2_dt64_silvesterparty_.mp3
+http://www.rias1.de/sound4/ddr_/dt64/900325_dt64_trend_spezial_die_wilbury_story_.mp3
+http://www.rias1.de/sound4/ddr_/dt64/900409_dt64_montags_extra_fruehlingsstruerme_.mp3
+http://www.rias1.de/sound4/ddr_/dt64/20140508_radioeins_dt64_spezial_brasch_elstermann_.mp3
+http://www.rias1.de/sound4/ddr_/dt64/19911223_dt64_2200_0000_schall_und_rauch_independent_night_holger_luckas_ronald_galenza_.mp3
+http://www.rias1.de/sound4/ddr_/dt64/19911224_dt64_0000_0200_schall_und_rauch_independent_night_holger_luckas_ronald_galenza_.mp3
+http://www.rias1.de/sound4/ddr_/dt64/19911224_dt64_0400_0500_schall_und_rauch_independent_night_holger_luckas_ronald_galenza_.mp3
+http://www.rias1.de/sound4/ddr_/dt64/19911224_dt64_0400_0500_schall_und_rauch_independent_night_holger_luckas_ronald_galenza_.mp3
+
