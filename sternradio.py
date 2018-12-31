@@ -18,13 +18,13 @@ while True:
 
         if (button != button_old):
             if button == 0:
-                urls = [stations[0]]
+                urls = stations[0]
             elif button == 1:
-                urls = [stations[1]]
+                urls = stations[1]
             elif button == 2:
-                urls = [stations[2]]
+                urls = stations[2]
             elif button == 3:
-                urls = [stations[3]]
+                urls = stations[3]
 
             if (play != play_old):
                 if play:

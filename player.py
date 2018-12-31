@@ -6,7 +6,7 @@ import multiprocessing
 
 class Player():
     def __init__(self):
-        os.system("killall mocp")
+        os.system("mocp -x &> /dev/null")
         os.system("mocp -S")
         self.isOn = False
         self.maxVolume = 25
