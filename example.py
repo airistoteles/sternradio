@@ -1,5 +1,6 @@
 import player
 import stations
+import os
 from time import sleep
 
 # load stations
@@ -12,17 +13,17 @@ while True:
     print("[1] DLF \n[2] DLF Kultur \n[3] DLF Nova \n[4] DT64 \n\n[5] Stop")
     user = input("Choose station: ")
     if user == "1":
-        urls = [stations[0]]
+        urls = stations[0]
+        #print(urls)
     elif user == "2":
-        urls = [stations[1]]
+        urls = stations[1]
     elif user == "3":
-        urls = [stations[2]]
+        urls = stations[2]
     elif user == "4":
-        urls = [stations[3]]
+        urls = stations[3]
     elif user == "5":
         if radio.getIsOn():
             radio.stop()
-            break
     if radio.getIsOn():
         radio.transition(0)
         radio.stop()

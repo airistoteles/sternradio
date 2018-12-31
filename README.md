@@ -12,4 +12,4 @@ No gui, no bullshit.
 
 ### Requirements
 - Python 3  (https://www.python.org/)
-- MPlayer (http://www.mplayerhq.hu)
+- MOC (http://moc.daper.net/)
