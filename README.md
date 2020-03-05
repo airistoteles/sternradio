@@ -2,7 +2,7 @@
 - Python controlled web radio 
 - for retro radio projects using RPis etc.
 
-No gui, no bullshit.
+No gui, no fancy stuff, just music.
 
 ### Usage
 0. have a look at "example.py" for a basic example
